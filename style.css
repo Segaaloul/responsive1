@@ -9,4 +9,26 @@
         background-color: snow;
         border-radius: 15px;
     }
+
+    .navigation ul{
+        list-style: none;
+    }
+
+    .list{
+        display: inline-flex;
+        margin-top: 5px;
+        margin-right: 1.5rem;
+    }
+    .list a{
+        text-decoration: none;
+    }
+    .icon{
+        font-size: 30px;
+        color: black;
+    }
+
+    .exit{
+        float: right;
+        margin-right: 10px;
+    }
 }
