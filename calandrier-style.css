@@ -45,4 +45,22 @@
         margin-bottom: 5px;
         padding-top: 5px;
     }
+
+    .tableau{
+        background-color: snow;
+        width: 100%;
+        border-radius: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+    table
+    {
+    border-collapse: collapse;
+    }
+    td, th /* Mettre une bordure sur les td ET les th */
+    {
+    border: 1px solid black;
+    }
 }
