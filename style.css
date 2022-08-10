@@ -45,4 +45,25 @@
         margin-bottom: 5px;
         padding-top: 5px;
     }
+
+    .contenu{
+        
+        
+    }
+    .image{
+        background-color: snow;
+        border-radius: 15px;
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+    }
+    .image img{
+        border-top-left-radius: 15px;
+    }
+    .image h2{
+        font-size: 30px;
+        margin-left: 60px;
+        font-weight: 600;
+    }
+
 }
