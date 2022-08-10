@@ -1,0 +1,48 @@
+@media screen and (max-width:480px){
+    body{
+        background-color: #CACACA;
+    }
+
+
+
+    .navigation{
+        background-color: snow;
+        border-radius: 15px;
+    }
+
+    .navigation ul{
+        list-style: none;
+    }
+
+    .list{
+        align-items: center;
+        display: inline-block;
+        margin-top: 5px;
+        margin-right: 1.5rem;
+    }
+    .list a{
+        text-decoration: none;
+    }
+    .icon{
+        font-size: 30px;
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .exit{
+       float: right;
+       margin-top: 10px;
+        margin-right: 10px;
+    }
+    .active{
+        text-align: center;
+        align-items: center;
+        background-color: red;
+        padding-bottom: -5px;
+        width: 2.4rem;
+        border-radius: 15px;
+        margin-bottom: 5px;
+        padding-top: 5px;
+    }
+}
