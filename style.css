@@ -15,7 +15,8 @@
     }
 
     .list{
-        display: inline-flex;
+        align-items: center;
+        display: inline-block;
         margin-top: 5px;
         margin-right: 1.5rem;
     }
@@ -25,15 +26,23 @@
     .icon{
         font-size: 30px;
         color: black;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .exit{
-        float: right;
+       float: right;
+       margin-top: 10px;
         margin-right: 10px;
     }
-
     .active{
+        text-align: center;
+        align-items: center;
         background-color: red;
+        padding-bottom: -5px;
+        width: 2.4rem;
+        border-radius: 15px;
+        margin-bottom: 5px;
+        padding-top: 5px;
     }
-
 }
