@@ -9,7 +9,85 @@ function showmembret(i){
 
 }
 
-function afficherinfo(i){
+function ajouter(){
+    
+    var element = document.getElementById("addd");
+    element.classList.toggle("invisible");
+}
+
+
+
+function insertAfter(newNode, existingNode) {
+    existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
+}
+
+function membre(){
+    let b= document.body
+
+    // creation du blco a ajouter
+    let user = document.createElement("div");
+
+
+    let boutton = document.createElement("button");
+    user.appendChild(boutton);
+    let nom = document.createElement("h2");
+    let t = document.createTextNode("nom membre");
+    nom.appendChild(t)
+    boutton.appendChild(nom)
+
+    let info = document.createElement("div");
+    info.className="info invisible";
+
+    let text1=document.createElement("h3");
+    let text2=document.createElement("h3");
+    let text3=document.createElement("h3");
+    let t1 = document.createTextNode("Nom");
+    let t2 = document.createTextNode("Mail");
+    let t3 = document.createTextNode("Numero");
+
+    text1.appendChild(t1);
+    text2.appendChild(t2);
+    text3.appendChild(t3);
+
+    info.appendChild(text1);
+    info.appendChild(text2);
+    info.appendChild(text3);
+
+    user.appendChild(info)
+
+
+
+
+
+    user.className="contact"
+
+
+
+
+
+    let element = document.getElementById("#java_add");
+    //let element2 = contenuid.getElementsByClassName("titre");
+    //let node =element2;
+
+    //b.insertBefore(user,node);
+
+    insertAfter(user,  java_add.lastElementChild);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+function afficherinfo(){
     
     
    //s showmembret(i);
@@ -21,6 +99,7 @@ function afficherinfo(i){
 const mediaQuery = window.matchMedia('(max-width: 480px)')
 // Check if the media query is true
 if (mediaQuery.matches) {
+   
   // Then trigger an alert
   
 }

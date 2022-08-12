@@ -5,4 +5,5 @@ if (mediaQuery.matches) {
   
 }else{
     alert("please use a smartphone")
+    window.location.href="logout.php"
 }
