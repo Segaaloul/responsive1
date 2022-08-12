@@ -1,20 +1,32 @@
 @media screen and (max-width:480px){
     body{
         background-color: #CACACA;
+        overflow: visible;
     }
 
-
+    .background-nav{
+        padding-top: 40px;
+        background-color: snow;
+        position: relative;
+        bottom: 40px;
+        margin-right: -7.5px;
+        margin-left: -7.5px;
+    }
 
     .navigation{
         background-color: snow;
         margin-top: -17px;
+        
         margin-right: -7.5px;
         margin-left: -7.5px;
+        
         
     }
 
     .navigation ul{
         list-style: none;
+        margin-left: -20px;
+        
     }
 
     .list{
