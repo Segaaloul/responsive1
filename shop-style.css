@@ -1,13 +1,14 @@
 @media screen and (max-width:480px){
     body{
-        background-color: #CACACA;
+       background-color: snow;
+        /* background-color: #CACACA; */
         overflow: visible;
     }
 
     
 
     .navigation{
-        background-color: snow;
+        background-color: #CACACA;
         margin-top: -17px;
         
         margin-right: -7.5px;
