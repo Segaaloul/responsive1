@@ -1,10 +1,14 @@
 @media screen and (max-width:480px){
+    html {
+        scroll-behavior: smooth;
+      }
     body{
        
          background-color: #CACACA; 
         overflow: visible;
         margin-left: 0px;
         margin-right: 0px;
+        margin-top: 0px;
     }
     .couleur-fond{
         background-color: snow;
@@ -15,26 +19,31 @@
 
     .navigation{
         background-color: #CACACA;
-        margin-top: -17px;
+       
         
         width: 100%;
-        position: fixed;
-        height: 70px;
-        margin-bottom: 40px;
         
+        height: 60px;
+        margin-bottom: 40px;
+        align-items: center;
     }
 
     .navigation ul{
         list-style: none;
+       align-items: baseline;
+       margin-top: 10px;
+       margin-left: -25px;
        
         
     }
 
     .list{
+        
         align-items: center;
         display: inline-block;
         margin-top: 5px;
         margin-right: 1.5rem;
+       
     }
     .list a{
         text-decoration: none;
@@ -93,6 +102,33 @@
         margin-left: 5px;
         margin-right: 5px;
         
-        margin-top: 100px;
+        margin-top: 30px;
+        overflow: hidden;
     }
+
+
+
+    
+    #remonter{
+        float: right;
+        font-size: 40px;
+        position: fixed;
+        left: 2%;
+        bottom: 5%;
+        background-color: #CACACA;
+        border-radius: 30px;
+
+        
+    }
+    .invisible{
+        opacity: 0;
+    }
+    .contenu a{
+        list-style: none;
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+
 }
