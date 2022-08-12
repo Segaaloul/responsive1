@@ -117,7 +117,7 @@
         bottom: 5%;
         background-color: #CACACA;
         border-radius: 30px;
-
+        transition-duration: .5s;
         
     }
     .invisible{
