@@ -51,7 +51,7 @@ window.addEventListener("scroll", (event) => {
 
     if(scrollY >=100){
         afficherfleche();
-        if(scrollY >= 1877){
+        if(scrollY >= 1857){
             stoperfleche();
         }else{
             demarrerfleche();
