@@ -17,6 +17,10 @@ window.onload = (event) =>{
     var y = window.scrollY;
     console.log('Page Loaded');
     console.log(y);
+    var h = window.innerHeight;
+    console.log(h);
+    console.log(h);
+    console.log(h);
 
 };
 
@@ -51,7 +55,7 @@ window.addEventListener("scroll", (event) => {
 
     if(scrollY >=100){
         afficherfleche();
-        if(scrollY >= 1857){
+        if(scrollY >= 1607){
             stoperfleche();
         }else{
             demarrerfleche();
