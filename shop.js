@@ -29,7 +29,14 @@ function cacherfleche(){
     element.classList.add("invisible");
 }
 
-
+function stoperfleche(){
+    let element=document.getElementById("remonter");
+    element.classList.add("stop");
+}
+function demarrerfleche(){
+    let element=document.getElementById("remonter");
+    element.classList.remove("stop");
+}
 
 
 
@@ -44,6 +51,11 @@ window.addEventListener("scroll", (event) => {
 
     if(scrollY >=100){
         afficherfleche();
+        if(scrollY >= 1877){
+            stoperfleche();
+        }else{
+            demarrerfleche();
+        }
     }else
     {
         cacherfleche();
