@@ -363,9 +363,12 @@ footer .activite h2{
 
 
 footer .contact a {
+    display: flex;
+    align-items: baseline;
     color: snow;
     padding: 2px;
-    margin: 3px;
+    margin: 5px;
+    
     
 }
 footer .contact h2{
@@ -401,6 +404,15 @@ footer .reseau h2{
     margin-bottom: 10px;
 }
 
+.copy{    
+    color: snow;
+    background-color: #292929;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+
 /* ---------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------- */
@@ -425,6 +437,7 @@ footer .reseau h2{
     }
     .navbar a{
         color: #292929;
+        margin-top: 10px;
     
     }
     .mobile{
@@ -501,7 +514,12 @@ footer .reseau h2{
     footer .contact{
         text-align: center;
     }
-    
+    footer .contact a {
+       
+        position: relative;
+        left: 15%;
+        
+    }
 
     
 }
