@@ -238,7 +238,7 @@ footer{
         padding: 0;
     }
     .navbar .menu-humburger{
-        z-index: 2;
+        z-index: 999;
         display: block;
         position: absolute;
         right: 30px;

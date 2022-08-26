@@ -52,7 +52,7 @@
             </div>
         </div>
 
-        <div class="box2 no-scroll" id="ibox2">
+        <div class="box2 " id="ibox2">
             <div class="gauche ">
                 <h1>
                     Decouvrer le monde du cheval <br> que de plaisir et de bonheur !
@@ -86,16 +86,26 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
 </body>
+
+
+
+
 <script>
     const menuHamburger = document.querySelector(".menu-humburger")
     const navLinks = document.querySelector(".nav-links")
 
     menuHamburger.addEventListener('click',()=>{
-        console.log("hello");
+    
+
     navLinks.classList.toggle('mobile');
+    var element=document.getElementById("icontenu");
+        element.classList.toggle("no-scroll");
+
+   
+
     })
 
-    
+    /*
     window.addEventListener("scroll", (event) => {
     let scrollY = this.scrollY;
 
@@ -117,7 +127,7 @@
 
 
 
-    /*
+    
    
     box2.addEventListener("scroll",(event)=>{
         let scrollbox2= this.scrollY;
@@ -125,7 +135,7 @@
 
         
     })
-*/
+
 const box2 = document.querySelector(".box2");
 
     box2.addEventListener("scroll", (event) => {
@@ -138,19 +148,20 @@ const box2 = document.querySelector(".box2");
         }
     })
       
-    
+    */
 
    
     /*
     if(scrollY>=790 || scrollY<750){
         
     }
-    */
+    
     
     
     });
    
-
+   
+*/
     window.onload = function() {
         
 
