@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>Projet 1</title>
+</head>
+<body id="icontenu">
+
+
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <img src="CLUB  EQUUSb.png" width="150px">
+        </a>
+        <div class="nav-links mobile">
+            <ul>
+                <li class="active"><a href="#">Acceuil</a></li>
+                <li><a href="#">Elevage</a></li>
+                <li><a href="#">A Propos</a></li>
+                <li><a href="#">Boutique</a></li>
+            </ul>
+        </div>
+        <img src="menu-btn.png" class="menu-humburger">
+    </nav>
+
+
+
+ 
+    <header>
+        
+    </header>
+
+    <div class="contenu" >
+        <div class="carrousel">
+            
+            <img  src="Calque 3.png" width="500px">
+            <img  src="Calque 3.png" width="500px">
+            <img  src="Calque 3.png" width="500px">
+            <img  src="Calque 3.png" width="500px">
+            <img src="Calque 3.png" width="500px">
+            <img src="Calque 3.png" width="500px">
+        </div>
+
+
+        <div class="box1">
+            <h1>De nouvelles aventures <br> au Club Equus Hammamet</h1>
+
+            <div class="image-box1">
+                <img src="CLUB  EQUUS.png" width="300px">
+            </div>
+        </div>
+
+        <div class="box2 no-scroll" id="ibox2">
+            <div class="gauche ">
+                <h1>
+                    Decouvrer le monde du cheval <br> que de plaisir et de bonheur !
+                </h1>
+                <h3>
+                    
+                </h3>
+            </div>
+            
+                <div class="liste-image">
+                    
+                     <img src="Calque 6.png" width="700px"> 
+                     <img src="Calque 6.png" width="700px"> 
+                     <img src="Calque 6.png" width="700px"> 
+
+                </div>
+            
+        </div>
+
+    </div>
+   
+
+
+
+
+    <footer>
+        footer
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-humburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+        console.log("hello");
+    navLinks.classList.toggle('mobile');
+    })
+
+    
+    window.addEventListener("scroll", (event) => {
+    let scrollY = this.scrollY;
+
+    if(scrollY>=750 && scrollY<=828){
+        var element=document.getElementById("ibox2");
+        element.classList.remove("no-scroll");
+        var element=document.getElementById("icontenu");
+        element.classList.add("no-scroll");
+        
+    }
+    else{
+        var element=document.getElementById("ibox2");
+        element.classList.add("no-scroll");
+        var element=document.getElementById("icontenu");
+        element.classList.remove("no-scroll");
+       
+    }
+    console.log(scrollY);
+
+
+
+    /*
+   
+    box2.addEventListener("scroll",(event)=>{
+        let scrollbox2= this.scrollY;
+        console.log("scroll box 2 ==",scrollbox2);
+
+        
+    })
+*/
+const box2 = document.querySelector(".box2");
+
+    box2.addEventListener("scroll", (event) => {
+
+            var val = box2.scrollTop;
+            console.log(val);
+            if(val>=1400 || val<=20){
+            var element=document.getElementById("icontenu");
+             element.classList.remove("no-scroll");
+        }
+    })
+      
+    
+
+   
+    /*
+    if(scrollY>=790 || scrollY<750){
+        
+    }
+    */
+    
+    
+    });
+   
+
+    window.onload = function() {
+        
+
+      console.log("function called...");
+    }
+</script>
+</html>
