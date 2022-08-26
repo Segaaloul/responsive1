@@ -42,7 +42,7 @@ header{
     align-items: center;
 }
 .navbar a{
-    color: #292929;
+    color: snow;
 
 }
 .navbar .logo{
@@ -162,14 +162,15 @@ header{
     background-color: #292929;
     display: flex;
     justify-content: space-between;
-    overflow: scroll;
+  
     height: 700px;
-    overflow-x: hidden;
+    overflow: hidden;
 
 
 }
 .no-scroll{
-    overflow-y: hidden;
+    overflow: hidden;
+    
 }
 
 .box2 .gauche{
@@ -190,6 +191,8 @@ header{
     margin-top: 50px;
     height: 700px;
     width: 800px;
+    overflow:scroll;
+    background-color: aliceblue;
     
  
 }
@@ -206,12 +209,12 @@ header{
 
 footer{
     height: 202px;
-    background-color: aqua;
+    background-color: #292929;
 }
 
-/* ------------------------------------- */
-
-
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
 
 @media screen and (max-width: 900px){
     .nav-links {
@@ -230,9 +233,13 @@ footer{
       transition: all .5s ease;
       
     }
+    .navbar a{
+        color: #292929;
+    
+    }
     .mobile{
         margin-left: -100%;
-        
+        position: fixed;
     }
 
     .navbar{
@@ -286,8 +293,12 @@ footer{
     }
 
     .box2{
+        display: none;
         flex-direction: column;
     }
+
+
+    
 
     
 }
