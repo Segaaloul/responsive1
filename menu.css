@@ -340,7 +340,7 @@ header{
 
 
 footer{
-   height: 300px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #292929;
     display: flex;
     padding: 10px;
@@ -393,6 +393,12 @@ footer .rapide h2{
     margin-top: 10px;
     margin-bottom: 10px;
    
+}
+
+footer .reseau h2{
+    color: snow;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* ---------------------------------------------------------------------- */
