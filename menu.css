@@ -42,7 +42,7 @@ header{
     align-items: center;
 }
 .navbar a{
-    color: snow;
+    color: #292929;
 
 }
 .navbar .logo{
@@ -226,12 +226,13 @@ footer{
        display: flex;
        justify-content: center;
        align-items: center;
-       backdrop-filter: blur(7px);
+       backdrop-filter: blur(9px);
       transition: all .5s ease;
       
     }
     .mobile{
         margin-left: -100%;
+        
     }
 
     .navbar{
