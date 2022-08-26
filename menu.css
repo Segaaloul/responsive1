@@ -143,6 +143,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 .box1 h1{
     font-weight:900;
@@ -151,12 +152,17 @@ header{
     color: #292929;
     transition: .5s ease;
     
+    
+}
+.box1 .image-box1{
+    position: relative;
+    bottom: 20px;
 }
 
 .box2{
     
     padding: 10px;
-    padding-top: 40px;
+    padding-top: 10px;
    padding-bottom: 0;
     height: 700px;
     background-color: #292929;
@@ -165,6 +171,7 @@ header{
   
     height: 700px;
     overflow: hidden;
+    padding-bottom: 50px;
 
 
 }
@@ -183,16 +190,18 @@ header{
 }
 .box2 .gauche h1{
     color: snow;
-    margin-left: 20px;
+    margin-left: 25px;
+    position: absolute;
+    top: 13%;
 }
 
 
 .box2  .liste-image{
     margin-top: 50px;
-    height: 700px;
+    height: 650px;
     width: 800px;
     overflow:scroll;
-    background-color: aliceblue;
+    margin-bottom:20px ;
     
  
 }
@@ -201,9 +210,132 @@ header{
 }
 .box2 .liste-image img{
     display: flex;
+    float: right;
     
 }
 
+.box2 .gauche .a1{
+    color: snow;
+    margin-left: 25px;
+    position: absolute;
+    top: 40%;
+    
+}
+.box2 .gauche .a1 h3::after{
+    content: "click for more  ";
+    opacity: 0;
+    font-size: 15px;
+    font-weight: 200;
+    position: relative;
+    left: 10px;
+    transition: ease-in-out 0.5s;
+}
+.box2 .gauche .a2 h3::after{
+    content: "click for more  ";
+    opacity: 0;
+    font-size: 15px;
+    font-weight: 200;
+    position: relative;
+    left: 10px;
+    transition: ease-in-out 0.5s;
+}
+.box2 .gauche .a3 h3::after{
+    content: "click for more  ";
+    opacity: 0;
+    font-size: 15px;
+    font-weight: 200;
+    position: relative;
+    left: 10px;
+    transition: ease-in-out 0.5s;
+}
+.box2 .gauche .a4 h3::after{
+    content: "click for more  ";
+    opacity: 0;
+    font-size: 15px;
+    font-weight: 200;
+    position: relative;
+    left: 10px;
+    transition: ease-in-out 0.5s;
+}
+.box2 .gauche .a1 h3:hover::after{
+    opacity: 1;
+    left: 20px;
+}
+.box2 .gauche .a1 h3:hover .fleche{
+    opacity: 1;
+    left: 137px;
+}
+.fleche{
+    color: snow;
+    position: relative;
+    left: 127px;
+    top: 5px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+
+}
+
+.box2 .gauche .a2{
+    color: snow;
+    margin-left: 25px;
+    position: absolute;
+    top: 45%;
+}
+.box2 .gauche .a2 h3:hover::after{
+    opacity: 1;
+    left: 20px;
+}
+.box2 .gauche .a2 h3:hover .fleche{
+    opacity: 1;
+    left: 137px;
+}
+
+.box2 .gauche .a3{
+    color: snow;
+    margin-left: 25px;
+    position: absolute;
+    top: 50%;
+}
+.box2 .gauche .a3 h3:hover::after{
+    opacity: 1;
+    left: 20px;
+}
+.box2 .gauche .a3 h3:hover .fleche{
+    opacity: 1;
+    left: 137px;
+}
+
+.box2 .gauche .a4{
+    color: snow;
+    margin-left: 25px;
+    position: absolute;
+    top: 55%;
+}
+.box2 .gauche .a4 h3:hover::after{
+    opacity: 1;
+    left: 20px;
+}
+.box2 .gauche .a4 h3:hover .fleche{
+    opacity: 1;
+    left: 137px;
+}
+.box2 .gauche h4{
+    margin-left: 25px;
+    color: snow;
+    position: absolute;
+    top: 80%;
+}
+.box2 .gauche h4 span{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.box3{
+    background-color: snow;
+    height: 700px;
+}
 
 
 
