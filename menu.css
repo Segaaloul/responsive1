@@ -173,10 +173,10 @@ header{
     display: flex;
     justify-content: space-between;
   
-    height: 700px;
+    
     overflow: hidden;
     padding-bottom: 50px;
-    width: 100%;
+   
 
 
 }
