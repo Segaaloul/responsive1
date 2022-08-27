@@ -332,10 +332,19 @@ header{
 
 
 
-.box3{
-    background-color: snow;
+
+
+.box3-iphone{
+    background-color:#292929;
     height: 700px;
+    display: none;
 }
+
+
+
+
+
+
 
 
 
@@ -499,6 +508,38 @@ footer .reseau h2{
         display: none;
         flex-direction: column;
     }
+
+    .box3-iphone{
+        display: flex;
+       flex-direction: column;
+        
+        
+
+    }
+    .box3-iphone .image{
+       
+        overflow: hidden;
+        width: 100%;
+    }
+    .box3-iphone .text a{
+        
+        
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     footer{
         flex-direction: column;
