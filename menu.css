@@ -337,7 +337,7 @@ header{
 .box3-iphone{
     margin-top: 50px;
     background-color:#292929;
-    height: 700px;
+    height: 1500px;
     display: none;
 }
 
@@ -517,22 +517,40 @@ footer .reseau h2{
         flex-direction: column;
     }
 
+
+
     .box3-iphone{
         display: flex;
        flex-direction: column;
         
-        
-
     }
     .box3-iphone .image{
        
         overflow: hidden;
         width: 100%;
     }
-    .box3-iphone .text a{
+    .box3-iphone  a {
+        padding: 20px;
+    }
+    .box3-iphone  a .a1{
+        text-decoration: none;
+        color: snow;
         
+    }
+    .box3-iphone  a .a2{
+        text-decoration: none;
+        color: snow;
         
-
+    }
+    .box3-iphone  a .a3{
+        text-decoration: none;
+        color: snow;
+        
+    }
+    .box3-iphone  a .a4{
+        text-decoration: none;
+        color: snow;
+     
     }
 
 
