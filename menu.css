@@ -561,6 +561,12 @@ footer .reseau h2{
         left: 15%;
         
     }
+    footer .contact a .atel {
+       
+        position: relative;
+        left: 10px;
+        
+    }
 
     
 }
