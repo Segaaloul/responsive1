@@ -489,7 +489,14 @@ footer .reseau h2{
         width: 100px;
     }
 
-
+    .contenu .carrousel{
+        padding: 0px;
+        width: 100%;
+        
+        
+    
+     }
+    
 
 
 
@@ -564,7 +571,7 @@ footer .reseau h2{
     footer .contact a .atel {
        
         position: relative;
-        left: 10px;
+        left: 15px;
         
     }
 
