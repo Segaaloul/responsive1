@@ -140,7 +140,7 @@ header{
    border-radius: 20px;
    border-top-right-radius: 120px;
     backdrop-filter: blur(10px);
-     
+    -webkit-backdrop-filter: blur(10px);
    
     
 
@@ -368,6 +368,9 @@ footer{
         background-image: url("img/IMG_1879.JPG");
         background-repeat: no-repeat;
      background-attachment: fixed;
+     -o-background-size: cover;
+     -moz-background-size: cover;
+     -webkit-background-size: cover;
      
      background-size: 500% 200%;
      
@@ -380,6 +383,7 @@ footer{
         background-color: none;
         background: none;
         backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(10px);
     }
     .box1 h4 img{
         
