@@ -367,6 +367,9 @@ footer{
         justify-content: none;
         background-image: url("img/IMG_1879.JPG");
         background-repeat: no-repeat;
+        -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
      background-attachment: fixed;
     
      
