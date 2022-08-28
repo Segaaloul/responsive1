@@ -365,7 +365,7 @@ footer{
         margin-top: 0px;
         flex-direction: column;
         justify-content: none;
-        background: url("img/IMG_1879.JPG") no-repeat center center fixed;
+        background-image: url("img/IMG_1879.JPG") ;
         background-repeat: no-repeat;
         -webkit-background-size: cover;
   -moz-background-size: cover;
