@@ -368,9 +368,8 @@ footer{
         background-image: url("img/IMG_1879.JPG");
         background-repeat: no-repeat;
      background-attachment: fixed;
-     -o-background-size: cover;
-     -moz-background-size: cover;
-     -webkit-background-size: cover;
+     background-attachment: initial;
+     
      
      background-size: 500% 200%;
      
