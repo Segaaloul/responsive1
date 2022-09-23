@@ -27,6 +27,13 @@ header{
     
 }
 
+.call img{
+    z-index: 1;
+    border-radius: 99px;
+    position: fixed;
+    top: 80%;
+    left: 20px;
+}
 
 
 .navbar{
@@ -199,6 +206,9 @@ header{
 }
 /* ------------------------------------- box Blala -------------------------------------------------- */
 .blala{
+    margin-top: 90px;
+
+    margin-bottom: 50px;
     height: 200px;
     /* background-color: pink; */
 }
@@ -439,20 +449,38 @@ header{
 }
 /* ------------------------------------- box ACTU -------------------------------------------------- */
 .titre-actu{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 60px;
     padding: 10px;
     margin-left: 30px;
     color: #292929;
     background-color: white;
 }
+.titre-actu::after{
+    content: "____________________________________________________________________";
+    position: relative;
+    top: -10px;
+    left: 15px;
+    opacity: 1;
+    transition: .5s;
+    width: 0%;
+    
+    
+}
+/*
+.titre-actu:hover::after{
+    opacity: 1;
+    width: 100%;
+    transition: .5s;
+}*/
+
 .box-actu{
     height: 500px;
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    margin-bottom: 70px;
 }
 
 .box-actu .actu{
@@ -460,12 +488,12 @@ header{
     text-align: center;
     
   
-
-  
     
 }
-.box-actu .actu h4{
-   
+.box-actu .actu .text{
+    width: 350px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 

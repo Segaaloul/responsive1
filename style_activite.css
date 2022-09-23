@@ -15,7 +15,7 @@ body{
 }
 
 header{
-   height: 160px;
+   height: 180px;
     width: 100%;
     
     /* background-image: url(Calque\ 2.png); */
@@ -156,8 +156,25 @@ header{
 
 .box{
     height: 700px;
+    overflow: hidden;
+}
+.box .video1{
+    position: relative;
+    bottom: 250px;
+
 }
 
+.box .text{
+    position: absolute;
+    top: 20%;
+    margin-left: 20px;
+    
+}
+
+.box .text h1{
+    padding: 20px;
+    color:white ;
+}
 
 
 
