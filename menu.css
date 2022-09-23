@@ -15,7 +15,7 @@ body{
 }
 
 header{
-   height: 160px;
+   height: 180px;
     width: 100%;
     
     /* background-image: url(Calque\ 2.png); */
@@ -40,6 +40,7 @@ header{
     width: 100%;
     box-sizing: border-box;
     align-items: center;
+    
 }
 .navbar a{
     color: snow;
@@ -112,6 +113,43 @@ header{
  }
 
 
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 18px;
+    top: 40px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.2);
+    
+    z-index: 1;
+    transition-duration: 1s;
+  }
+
+  .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  .dropdown-content a:hover {
+  
+  background-color: #292929;
+  color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    transition-duration: 1s;
+  
+  }
+
+
 
  
  .contenu .carrousel{
@@ -124,6 +162,7 @@ header{
  .contenu .carrousel img{
     animation:image 10s infinite;
  }
+ 
 
  @keyframes image {
     0%{
@@ -398,10 +437,18 @@ header{
     height: 1500px;
     display: none;
 }
-/* ------------------------------------- box Blala -------------------------------------------------- */
+/* ------------------------------------- box ACTU -------------------------------------------------- */
+.titre-actu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 30px;
+    color: #292929;
+    background-color: white;
+}
 .box-actu{
     height: 500px;
-    background-color: pink;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -412,7 +459,7 @@ header{
     padding: 10px;
     text-align: center;
     
-  background-color: aqua;
+  
 
   
     
