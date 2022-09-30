@@ -162,7 +162,7 @@ header{
  .contenu .carrousel{
     display: flex;
     overflow: hidden;
-    
+    width: 100%;
 
  }
 
@@ -207,7 +207,7 @@ header{
 /* ------------------------------------- box Blala -------------------------------------------------- */
 .blala{
     margin-top: 90px;
-
+    word-wrap: break-word;
     margin-bottom: 50px;
     height: 200px;
     /* background-color: pink; */
@@ -215,7 +215,8 @@ header{
 
 .blala h3{
     padding: 10px;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     
 }
@@ -455,15 +456,17 @@ header{
     margin-left: 30px;
     color: #292929;
     background-color: white;
+    overflow: hidden;
 }
 .titre-actu::after{
-    content: "____________________________________________________________________";
+    content: "______________________________________";
     position: relative;
     top: -10px;
     left: 15px;
     opacity: 1;
     transition: .5s;
     width: 0%;
+    
     
     
 }
@@ -647,9 +650,12 @@ footer .reseau h2{
 
     .contenu .carrousel{
         padding: 0px;
-        
-        
+        width: 100%;
+        display: none;
     
+     }
+     .contenu .carrousel img{
+        width: 100%;
      }
      
 
@@ -668,7 +674,7 @@ footer .reseau h2{
 
     .box2{
         display: none;
-        flex-direction: column;
+        
     }
 
 
@@ -676,6 +682,7 @@ footer .reseau h2{
     .box3-iphone{
         display: flex;
        flex-direction: column;
+       display: none;
         
     }
     .box3-iphone .image{
@@ -715,10 +722,23 @@ footer .reseau h2{
         
     }
 
+    .box-actu{
+        display: none;
+    }
+    .titre-actu{
+        display: none;
+    }
 
     
 
-
+    .call img{
+        
+        position:sticky;
+        bottom: 30px;
+        left: 20px;
+        width: 40px;
+        
+    }
 
 
 
