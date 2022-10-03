@@ -7,6 +7,7 @@
 }
 html {
     scroll-behavior: smooth;
+
   }
 
 body{
@@ -580,6 +581,10 @@ footer .reseau h2{
     text-align: center;
 }
 
+.contenu_iphone{
+display: none;
+}
+
 
 /* ---------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------- */
@@ -599,7 +604,7 @@ footer .reseau h2{
        justify-content: center;
        align-items: center;
        backdrop-filter: blur(10px);
-       -webkit-backdrop-filter: blur(10px);
+       -webkit-backdrop-filter: blur(8px);
       transition: all .5s ease;
       
     }
@@ -650,12 +655,9 @@ footer .reseau h2{
 
     .contenu .carrousel{
         padding: 0px;
-        width: 100%;
-        display: none;
+        
+        
     
-     }
-     .contenu .carrousel img{
-        width: 100%;
      }
      
 
@@ -674,78 +676,8 @@ footer .reseau h2{
 
     .box2{
         display: none;
-        
+        flex-direction: column;
     }
-
-
-
-    .box3-iphone{
-        display: flex;
-       flex-direction: column;
-       display: none;
-        
-    }
-    .box3-iphone .image{
-       
-        overflow: hidden;
-        width: 100%;
-    }
-    .box3-iphone  a {
-        padding: 20px; 
-    }
-    .box3-iphone  a .a1{
-        text-decoration: none;
-        color: snow;
-        
-    }
-    .box3-iphone  a .a2{
-        text-decoration: none;
-        color: snow;
-        
-    }
-    .box3-iphone  a .a3{
-        text-decoration: none;
-        color: snow;
-        
-    }
-    .box3-iphone  a .a4{
-        text-decoration: none;
-        color: snow;
-     
-    }
-
-
-
-    .call img{
-        
-        top: 20%;
-        
-    }
-
-    .box-actu{
-        display: none;
-    }
-    .titre-actu{
-        display: none;
-    }
-
-    
-
-    .call img{
-        
-        position:sticky;
-        bottom: 30px;
-        left: 20px;
-        width: 40px;
-        
-    }
-
-
-
-
-
-
-
 
 
 
@@ -778,5 +710,35 @@ footer .reseau h2{
         
     }
 
+
+
+    .contenu{
+        display: none;
+    }
+    .titre-actu{
+        display: none;
+
+    }
+    .box-actu{
+        display: none;
+
+    }
+    .amap{
+        
+        width: 200px;
+    }
+
+    .contenu_iphone{
+        display:initial;
+        }
+
+    .contenu_iphone .bloc1{
+            overflow: hidden;
+        }
+        .contenu_iphone .bloc1 img{
+            position: relative;
+            right: 200px;
+            
+        }
     
 }
