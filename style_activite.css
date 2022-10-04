@@ -394,6 +394,11 @@ footer{
         
     }
 
+
+
+    header{
+        height: 150px;
+    }
     .contenu{
         display: none;
     }

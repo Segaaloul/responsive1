@@ -432,6 +432,10 @@ footer{
         
     }
 
+
+    header{
+        height: 150px;
+    }
     .amap{
         
         width: 200px;

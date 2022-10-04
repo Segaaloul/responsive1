@@ -452,15 +452,14 @@ footer{
         text-align: center;
         margin: 0px;
     }
-    
-
-    
 
     .amap{
         
         width: 200px;
     }
-    
+    header{
+        height: 150px;
+    }
 
 
 
