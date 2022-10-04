@@ -8,9 +8,12 @@
 html {
     scroll-behavior: smooth;
   }
-
+  @font-face {
+    font-family: fei;
+    src: url(FEI\ Bold.woff2.otf);
+  }
 body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:fei;
     scroll-behavior: smooth;
 }
 

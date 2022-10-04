@@ -4,13 +4,14 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    
 }
 html {
     scroll-behavior: smooth;
 
   }
 
-  @font-face {
+@font-face {
     font-family: fei;
     src: url(FEI\ Bold.woff2.otf);
   }
@@ -199,7 +200,7 @@ header{
 .box1 h1{
     font-weight:900;
     font-size: 40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:fei;
     color: #292929;
     transition: .5s ease;
     
@@ -287,7 +288,11 @@ header{
 }
 .box2 .liste-image img{
     display: flex;
+
     float: right;
+    
+    
+    
     
 }
 
@@ -752,6 +757,23 @@ display: none;
             position: relative;
             right: 200px;
             
+        }
+
+
+       
+        .contenu_iphone .bloc_activite{
+            background-color: #292929;
+        }
+
+
+        .contenu_iphone .bloc_activite a{
+            text-decoration: none;
+            
+            color: white;
+            
+        }
+        .contenu_iphone .bloc_activite a h3{
+            padding: 10px;
         }
     
 }
