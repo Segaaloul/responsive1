@@ -158,7 +158,23 @@ header{
 
 
 .box{
-    height: 700px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.box .image{
+   margin-top: 20px;
+    display: flex;
+    padding: 10px;
+    
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box image img{
+    
+    padding: 10px;
+    
+    
+
 }
 
 
