@@ -169,25 +169,37 @@ header{
     display: flex;
     overflow: hidden;
     width: 100%;
+    
 
  }
 
  .contenu .carrousel img{
-    animation:image 10s infinite;
+    animation:image 20s infinite ease-out;
+    /*animation-direction: alternate;*/
+    animation-direction:  alternate;
  }
  
 
  @keyframes image {
     0%{
-        transform: translateX(0);
-    }50%{
+        transform: translateX(0px);
+    }
+    25%{
         transform: translateX(-500px);
     }
-    100%{
+    50%{
         transform: translateX(-1000px);
     }
+    
+    100%{
+        transform: translateX(-1500px);
+        
+    }
+   
+    
 
  }
+
 
 .box1{
     padding: 10px;

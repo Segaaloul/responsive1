@@ -32,6 +32,7 @@ setInterval(function(){
         div.classList.add("yes");
         div.style.backgroundImage = `url(${url})`;
         
+        
     }
     
   }, 5000);

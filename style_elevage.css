@@ -168,13 +168,23 @@ header{
     
     justify-content: space-around;
     flex-flow: wrap;
+    
 }
-.box image img{
-    
+.box .image a img{
     padding: 10px;
-    
-    
-
+    transition: .2s ease-in-out;
+   
+}
+.box .image a h3{
+    text-decoration: none;
+    text-align: center;
+    color: #292929;
+}
+.box .image a:hover img{
+    justify-content: inherit;
+    padding: 0px;
+    transition: .2s ease-in-out;
+    width: 210px;
 }
 
 
